@@ -8,6 +8,7 @@ Static GitHub Pages site migrated from the Wix site at `https://noyitz.wixsite.c
 - `donate.html`
 - `book-for-soldier.html`
 - `community.html`
+- `weddings-bar-mitzvah.html`
 - `about.html`
 - `contact.html`
 
