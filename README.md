@@ -11,7 +11,7 @@ Static GitHub Pages site migrated from the Wix site at `https://noyitz.wixsite.c
 - `weddings-bar-mitzvah.html`
 - `about.html`
 - `contact.html`
-- `books/index.html` — `/books` redirects to `/books/`; Hebrew book catalog and purchase-request form. The form prepares an email to `noyitz@gmail.com`; visitors must send it in their email app. No price or payment collection is configured. Only cover/series preview images are public, not the full PDF.
+- `books/index.html` — `/books` redirects to `/books/`; English catalog and purchase-request form for the Hebrew book, with an English edition coming soon. The cover retains its original Hebrew artwork and is displayed with a right-hand spine. The form prepares an email to `noyitz@gmail.com`; visitors must send it in their email app. No price or payment collection is configured. The full PDF is not published.
 
 ## GitHub Pages
 

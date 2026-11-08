@@ -4,7 +4,7 @@ purchaseForm.addEventListener('submit', (event) => {
   if (!purchaseForm.reportValidity()) return;
   const data = new FormData(purchaseForm);
   const body = [
-    'Purchase request: Alef Opens the Door / אלף פותחת את הדלת',
+    'Purchase request: Alef Opens the Door — Hebrew edition',
     '',
     `Name: ${data.get('name')}`,
     `Email: ${data.get('email')}`,
@@ -16,6 +16,6 @@ purchaseForm.addEventListener('submit', (event) => {
   ].join('\n');
   document.querySelector('#request-copy').value = body;
   document.querySelector('#email-fallback').hidden = false;
-  document.querySelector('#request-status').textContent = 'הבקשה מוכנה. שלחו אותה דרך אפליקציית האימייל. / Your request is ready. Send it in your email app, or copy it below.';
+  document.querySelector('#request-status').textContent = 'Your request is ready. Send it in your email app, or copy it below.';
   window.location.href = `mailto:noyitz@gmail.com?subject=${encodeURIComponent('Book purchase request — Alef Opens the Door')}&body=${encodeURIComponent(body)}`;
 });
