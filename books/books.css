@@ -35,16 +35,7 @@ main { overflow: hidden; }
 .story-grid p:last-child { font-size: 17px; color: #536456; margin: 0; }
 .coming-section { max-width: 1080px; margin: 0 auto; padding: 80px 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; direction: ltr; }
 .coming-copy { direction: ltr; }
-.coming-art { border-radius: 16px; border: 1px solid #ddc99c; background: radial-gradient(ellipse at top, #edf1dd, #f4e6c6); padding: 36px 22px 24px; text-align: center; }
-.next-chapter { font-size: 11px; letter-spacing: 3px; color: #77623a; }
-.future-books { display: flex; align-items: flex-end; gap: 12px; margin: 36px 0 28px; }
-.future-books > div { flex: 1; min-width: 0; background: #285b65; color: #fff2c8; border: 2px solid #bd984f; border-radius: 3px 9px 9px 3px; padding: 24px 5px 18px; box-shadow: 6px 8px 0 #bda36b, 10px 14px 20px #67512f26; transform: rotate(-4deg); }
-.future-books > div:nth-child(2) { background: #627849; transform: translateY(-14px); }
-.future-books > div:nth-child(3) { background: #765371; transform: rotate(4deg); }
-.future-books span { font: bold 18px/1.3 Georgia, serif; }
-.future-books strong { display: block; font: 48px/1.6 Georgia, serif; }
-.future-books small { font-size: 8px; letter-spacing: 1px; }
-.coming-art > p { font: italic 20px Georgia, serif; color: #736344; }
+.coming-art img { width: 100%; height: auto; border-radius: 16px; border: 5px solid #f0dfb6; box-shadow: 0 18px 40px #6d532326; }
 .coming-copy h2 { font: bold clamp(34px, 4vw, 48px)/1.3 Georgia, serif; margin: 0 0 24px; }
 .coming-copy h2 span { color: #927033; }
 .coming-copy > p:not(.small-heading):not(.english-note) { font-size: 18px; }
